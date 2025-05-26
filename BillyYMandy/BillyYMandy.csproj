@@ -121,6 +121,10 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Paginas\Ejercicio1.aspx" />
+    <Content Include="Paginas\ejercicio3.aspx" />
+    <Content Include="Paginas\Ejercicio4.aspx" />
+    <Content Include="Paginas\Ejercico2.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -209,6 +213,34 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Paginas\Ejercicio1.aspx.cs">
+      <DependentUpon>Ejercicio1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Ejercicio1.aspx.designer.cs">
+      <DependentUpon>Ejercicio1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\ejercicio3.aspx.cs">
+      <DependentUpon>ejercicio3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\ejercicio3.aspx.designer.cs">
+      <DependentUpon>ejercicio3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Ejercicio4.aspx.cs">
+      <DependentUpon>Ejercicio4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Ejercicio4.aspx.designer.cs">
+      <DependentUpon>Ejercicio4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Ejercico2.aspx.cs">
+      <DependentUpon>Ejercico2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Ejercico2.aspx.designer.cs">
+      <DependentUpon>Ejercico2.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -219,12 +251,14 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
